@@ -7,7 +7,6 @@ const dotenv = require('dotenv');
 const axios = require('axios');
 dotenv.config();
 const clientID = process.env.REACT_APP_CLIENT_ID;
-const secret = process.env.REACT_APP_CLIENT_SECRET;
 const REDIRECT_URI = "http://localhost:3000/home";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
